@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/Home.css ">
+    <script src="../JAVASCRIPT/Home.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- navigation bar -->
+    <nav id="navbar">
+        <div id="logodiv">
+            <h3 id="art">ClinicArt</h3>
+        </div>
+        <div id="sub">
+            <a href="./Home.html" style="text-decoration: none;color: black;"><div class="subHeads" id="home">HOME</div></a>
+            <div class="subHeads" id="about">ABOUT</div>
+            <div class="subHeads" id="service">SERVICES</div>
+            <div class="subHeads" id="page">PAGES</div>
+            <div class="subHeads" id="contact">CONTACT</div>
+            <div class="subHeads" id="Logout">
+                <form action="" >
+                    <button type="submit" id="logbutton">LOGOUT</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- navigation bar ending -->
+    
+    <!-- front screen image -->
+    <div id="img">
+        <button id="scroll1" onclick="add()"> < </button>
+        <button id="scroll2" onclick="add()"> > </button>
+        <form action=""> 
+            <input type="submit" value="appointment" id="appointment">
+            <input type="submit" value="Contact Us" id="contact">
+        </form>
+    </div>
+    <!-- front screen image ending -->
+
+    <!-- scrolling & reading -->
+    <div id="divabout">
+        <h1 id="us">ABOUT US</h1>
+    </div>
+    <div id="aboutdown">
+        <div id="img3" style="width: 50%;"></div>
+        <div id="img3details" style="width: 43%;">
+            <h1 style="height: 40px;display: flex;justify-content: center;">A New Standard in Clinical</h1>
+            <h1 style="display: flex;justify-content: center;">Experience</h1>
+            <p>For us, patient satisfaction is a top priority. We consider every detail to provide you with a personalized and specialized healthcare experience. For us, patient satisfaction is a top priority. We consider every detail to provide you with a personalized and specialized healthcare experience. For us, patient satisfaction is a top priority. We consider every detail to provide you with a personalized and specialized healthcare experience. For us, patient satisfaction is a top priority. We consider every detail to provide you with a personalized and specialized healthcare experience.</p>
+            <a href="#"><button id="buttonus">Contact Us</button></a>
+        </div>
+    </div>
+    <h1 id="facts" style="width: 100%;">SOME FACTS</h1>
+    <h1 id="factsHere">Here Are Our Statistics.</h1>
+    <p id="para">Since our establishment, our focus has been on our patients, successful surgeries, and the achievements we have gained. Since our establishment, our focus has been on our patients, successful surgeries, and the achievements we have gained. Since our establishment, our focus has been on our patients, successful surgeries, and the achievements we have gained. Since our establishment, our focus has been on our patients, successful surgeries, and the achievements we have gained. Since our establishment, our focus has been on our patients, successful surgeries, and the achievements we have gained.</p>
+    <h1 id="call" style="width: 100%;">Call for any query!</h1>
+    <h1 id="num" style="width: 100%;">+214-509-0000</h1>
+    <!-- scrolling & reading ending -->
+
+    <!-- 3 div tags transition -->
+    <div id="transitiondiv">
+        <div class="transition" style="background-color: rgb(7, 141, 209);">
+            <i class="fa-solid fa-users"></i>
+            <h1>865</h1>
+            <h2>Patients</h2>
+        </div>
+        <div class="transition" style="background-color: orange;">
+            <i class="fa-solid fa-heart" ></i>
+            <h1>254</h1>
+            <h2>Complete Surgeries</h2>
+        </div>
+        <div class="transition" style="background-color: rgb(37, 151, 37);">
+            <i class="fa-solid fa-star" ></i>
+            <h1>32</h1>
+            <h2>Our Awards</h2>
+        </div>
+    </div>
+    <!-- 3 div tags transition ending -->
+
+    <h1 id="our" style="width: 100%;">OUR SERVICES</h1>
+    <h1 id="ourdown" style="width: 100%;"><big>Explore Our Services</big></h1>
+
+    <!-- 6 div images -->
+    <div id="imgdiv" >
+        <div class="imghovers" id="">
+            <div id="imgout" style="width: 300px;height: 180px;"><img id="emg" style="width: 300px;" src="../ASSETS/dental.jpg" alt=""></div>
+            <h1>Dental</h1>
+            <span style="width: 300px;text-align: center;">In our dental department, we provide services for healthy and smiles</span>
+            <div id="hide" style="width: 130px;height: 35px;border-radius: 100px;">
+                <div id="hidein"><a href="../HTML/Home.html">READ MORE</a></div>
+            </div>
+        </div>
+        <div class="imghovers" id="">
+            <div id="imgout"><img id="emg" style="width: 300px;" src="../ASSETS/mind.jpg" alt=""></div>
+            <h1>Neurologie</h1>
+            <span style="width: 300px;text-align: center;">To protect brain health and transform lives, we are here.</span>
+            <div id="hide" style="width: 130px;height: 35px;border-radius: 100px;">
+                <div id="hidein"><a href="../HTML/Home.html">READ MORE</a></div>
+            </div>
+        </div>
+        <div class="imghovers" id="">
+            <div id="imgout"><img id="emg" style="width: 300px;" src="../ASSETS/gym.jpg" alt=""></div>
+            <h1>Cardio</h1>
+            <span style="width: 300px;text-align: center;">To protect brain health and transform lives, we are here.</span>
+            <div id="hide" style="width: 130px;height: 35px;border-radius: 100px;">
+                <div id="hidein"><a href="../HTML/Home.html">READ MORE</a></div>
+            </div>
+        </div>
+        <div class="imghovers" id="">
+            <div id="imgout"><img id="emg" style="width: 300px;" src="../ASSETS/xray.jpg" alt=""></div>
+            <h1>Orthopedy</h1>
+            <span style="width: 300px;text-align: center;">To protect brain health and transform lives, we are here.</span>
+            <div id="hide" style="width: 130px;height: 35px;border-radius: 100px;">
+                <div id="hidein"><a href="../HTML/Home.html">READ MORE</a></div>
+            </div>
+        </div>
+        <div class="imghovers" id="">
+            <div id="imgout"><img id="emg" style="width: 300px;" src="../ASSETS/lab.jpg" alt=""></div>
+            <h1>Laboratory</h1>
+            <span style="width: 300px;text-align: center;">To protect brain health and transform lives, we are here.</span>
+            <div id="hide" style="width: 130px;height: 35px;border-radius: 100px;">
+                <div id="hidein"><a href="../HTML/Home.html">READ MORE</a></div>
+            </div>
+        </div>
+        <div class="imghovers" id="">
+            <div id="imgout"><img id="emg" style="width: 300px;" src="../ASSETS/observe.jpg" alt=""></div>
+            <h1>Psychiatry</h1>
+            <span style="width: 300px;text-align: center;">To protect brain health and transform lives, we are here.</span>
+            <div id="hide" style="width: 130px;height: 35px;border-radius: 100px;">
+                <div id="hidein"><a href="../HTML/Home.html">READ MORE</a></div>
+            </div>
+        </div>
+    </div>
+    <!-- 6 divimages ending -->
+
+    <!-- nurse image -->
+    <div id="aftertrans" style="width: 100%;height: 150vh;">
+        <div style="margin-left: 50px;">
+            <h1 style="color: rgb(5, 205, 205);">OUR FEATURES</h1>
+            <br>
+            <br>
+            <div id="headings" style="width: 500px;height: 200px;">
+                <h1 style="font-size: 40px;">Wellness and Healing</h1>
+                <br>
+                <h1 style="font-size: 40px;">Center: Here to Transform</h1>
+                <br>
+                <h1 style="font-size: 40px;">Your Life</h1>
+            </div>
+            <div style="width: 500px;height: 523px;display: flex;justify-content: space-between;align-items: center;flex-direction: column;">
+                <div style="width: 500px;height: 150px;display: flex;flex-direction: row;">
+                    <div style="width: 100px;height: 100px;">
+                        <i id="scope" class="fa-solid fa-stethoscope" style="color: rgb(5,205,205);"></i>
+                    </div>
+                    <div style="width: 400px;">
+                        <h2>Our Team Of Experts</h2>
+                        <br>
+                        <span style="font-size: 17px;color: grey;">Our team consists of expert doctors who are experienced and skilled in their respective fields. They form a dedicated team that is committed to continuously enhancing their knowledge and skills in order to provide our patients</span>
+                    </div>
+                </div>
+                <div style="width: 500px;height: 100px;display: flex;flex-direction: row;">
+                    <div style="width: 100px;height: 100px;">
+                        <i id="scopehospital" class="fa-solid fa-hospital" style="color: rgb(5,205,205);"></i>
+                    </div>
+                    <div style="width: 400px;">
+                        <h2>Clinical Hygiene</h2>
+                        <br>
+                        <span style="font-size: 17px;color: grey;">We maintain the highest level of clinical hygiene standards to ensure the health and well-being of our patients.</span>
+                    </div>
+                </div>
+                <div style="width: 500px;height: 170px; display: flex;flex-direction: row;">
+                    <div style="width: 100px;height: 100px;">
+                        <i id="scope" class="fa-solid fa-headphones" style="color: rgb(5,205,205);"></i>
+                    </div>
+                    <div style="width: 400px;">
+                        <h2>24/7 Telephone Support</h2>
+                        <br>
+                        <span style="font-size: 17px;color: grey;">To ensure the highest level of customer satisfaction, we provide 24/7 telephone support. Our team of experts is always just a phone call away, ready to assist you with any inquiries, requests, or emergencies. We understand the importance of being accessible and responsive to our patients' needs, and our dedicated team is here to provide support and guidance whenever you need it.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="width: 600px;height: 900px;overflow: hidden;">
+            <img id="imgnurse" style="width: 600px;height: 725px;scale: 1.3;" src="../ASSETS/4.jpg" alt="">
+        </div>
+    </div>
+    <!-- nurse image ending -->
+    <h1 id="plan" style="width: 100%;">PRICING PLAN</h1>
+    <br>
+    <h1 id="plan" style="width: 100%;top: 827vh;color: black;"><big>Our Service Prices</big></h1>
+
+    <div id="divs3" style="width: 100%;height: 90vh;">
+        <div style="height: 450px;" class="imghovers" id="">
+            <div id="imgout" style="width: 350px;height: 150px;border-bottom: 2px solid grey; display: flex;flex-direction: column;justify-content: center;align-items: center;margin-top: -25px;">
+                <h3 style="color: rgb(5,205,205);">Dental Procedures</h3>
+                <h1 style="font-size: 20px;">$<span style="font-size: 60px;">5000</span>.00-</h1>
+            </div>
+            <div id="ticks" style="display: flex;justify-content: space-between;flex-direction: row;width: 300px;height: 180px; margin-left: 0px;">
+                <div style="width: 30px;height: 200px;display: flex;flex-direction: column;gap: 1.5px;">
+                    <i id="tickmark" class="fa-solid fa-check"></i><br>
+                    <i id="tickmark" class="fa-solid fa-check"></i><br>
+                    <i id="tickmark" class="fa-solid fa-check"></i><br>
+                    <i id="tickmark" class="fa-solid fa-check"></i><br>
+                    <i id="tickmark" class="fa-solid fa-check"></i><br>
+                </div>
+                <div style="width: 270px;">
+                    <h4 style="color: grey;">Dental Cleaning</h4><br>
+                    <h4 style="color: grey;">Dental Filling</h4><br>
+                    <h4 style="color: grey;">Root Canal Treatment</h4><br>
+                    <h4 style="color: grey;">Tooth Extraction</h4><br>
+                    <h4 style="color: grey;">Dental Implant</h4><br>
+                </div>
+            </div>
+            <div id="hide" style="width: 130px;height: 35px;border-radius: 100px;">
+                <div id="hidein"><a href="../HTML/Home.html">Contact Now</a></div>
+            </div>
+        </div>
+        <div style="height: 450px;" class="imghovers" id="">
+            <div id="imgout" style="width: 350px;height: 150px;border-bottom: 2px solid grey; display: flex;flex-direction: column;justify-content: center;align-items: center;margin-top: -25px;">
+                <h3 style="color: rgb(5,205,205);">Brain Surgery</h3>
+                <h1 style="font-size: 20px;">$<span style="font-size: 60px;">15000</span>.00-</h1>
+            </div>
+            <div id="ticks" style="display: flex;justify-content: space-between;flex-direction: row;width: 300px;height: 180px; margin-left: 0px;">
+                <div style="width: 30px;height: 200px;display: flex;flex-direction: column;gap: 1.5px;">
+                    <i id="tickmark" class="fa-solid fa-check"></i><br>
+                    <i id="tickmark" class="fa-solid fa-check"></i><br>
+                    <i id="tickmark" class="fa-solid fa-check"></i><br>
+                    <i id="tickmark" class="fa-solid fa-check"></i><br>
+                    <i id="tickmark" class="fa-solid fa-check"></i><br>
+                </div>
+                <div style="width: 270px;">
+                    <h4 style="color: grey;">Tumor Removal</h4><br>
+                    <h4 style="color: grey;">Aneurysm Repair.</h4><br>
+                    <h4 style="color: grey;">Epilepsy Surgery.</h4><br>
+                    <h4 style="color: grey;">Hydrocephalus Treatment</h4><br>
+                    <h4 style="color: grey;">Parkinson's Surgery</h4><br>
+                </div>
+            </div>
+            <div id="hide" style="width: 130px;height: 35px;border-radius: 100px;">
+                <div id="hidein"><a href="../HTML/Home.html">Contact Now</a></div>
+            </div>
+        </div>
+        <div style="height: 450px;" class="imghovers" id="">
+            <div id="imgout" style="width: 350px;height: 150px;border-bottom: 2px solid grey; display: flex;flex-direction: column;justify-content: center;align-items: center;margin-top: -25px;">
+                <h3 style="color: rgb(5,205,205);">Orthopedic Surgery</h3>
+                <h1 style="font-size: 20px;">$<span style="font-size: 60px;">15000</span>.00-</h1>
+            </div>
+            <div id="ticks" style="display: flex;justify-content: space-between;flex-direction: row;width: 300px;height: 180px; margin-left: 0px;">
+                <div style="width: 30px;height: 200px;display: flex;flex-direction: column;gap: 1.5px;">
+                    <i id="tickmark" class="fa-solid fa-check"></i><br>
+                    <i id="tickmark" class="fa-solid fa-check"></i><br>
+                    <i id="tickmark" class="fa-solid fa-check"></i><br>
+                    <i id="tickmark" class="fa-solid fa-check"></i><br>
+                    <i id="tickmark" class="fa-solid fa-check"></i><br>
+                </div>
+                <div style="width: 270px;">
+                    <h4 style="color: grey;">Knee Arthroscopy</h4><br>
+                    <h4 style="color: grey;">Shoulder Surgeries</h4><br>
+                    <h4 style="color: grey;">Hip Replacement</h4><br>
+                    <h4 style="color: grey;">Spine Surgery</h4><br>
+                    <h4 style="color: grey;">Hand and Foot Surgery</h4><br>
+                </div>
+            </div>
+            <div id="hide" style="width: 130px;height: 35px;border-radius: 100px;">
+                <div id="hidein"><a href="../HTML/Home.html">Contact Now</a></div>
+            </div>
+        </div>
+    </div>
+    <!-- 3 hover divs complete -->
+    <div id="submitdiv" style="width:100%;height: 80vh;display: flex;justify-content: center;align-items: center;gap: 20px;">
+        <div id="submit" style="width: 50%;height: 400px; background-color: rgba(28, 230, 223, 0.381);">
+            <form action="">
+                <input type="text" placeholder="Enter the Name" style="width: 250px;height: 50px;" id="subinput1">
+                <input type="mail" placeholder="Enter Your Email" style="width: 250px;height: 50px;" id="subinput2">
+                <input type="tel" placeholder="Enter Your Mobile" style="width: 250px;height: 50px;" id="subinput3">
+                <select id="subinput4" style="width: 260px;height: 50px;">
+                    <option value="">Select A Section</option>
+                    <option value="">Dental</option>
+                    <option value="">Neurologie</option>
+                    <option value="">Cardio</option>
+                    <option value="">Orthopedy</option>
+                    <option value="">Laboratory</option>
+                    <option value="">Psychiatry</option>
+                </select> 
+                <textarea name="" id="textarea" rows="10" style="width: 540px;height: 70px;"></textarea>
+                <input type="submit" style="width: 540px;height: 50px;" id="inputsub">
+            </form>
+        </div>
+        <div id="request" style="width: 45%;height: 450px; display: flex;justify-content: space-evenly;flex-direction: column; ">
+            <h1 style="color: aqua;font-weight: bold;font-size: 40px;">GET A QUOTE</h1>
+            <h1 style="color: black;font-weight: bold;font-size: 45px;">Request A Free Qoute!</h1>
+            <h4 style="color: grey;">Our experienced staff is available to assist you in scheduling appointments or answering your questions. You can reach out to us to share any concerns regarding your health condition. We recommend booking an appointment before visiting our clinic so that we can allocate a suitable time for you.</h4>
+            <div style="display: flex;gap: 20px;">
+                <div style="width: 100px;height: 100px;border-radius: 100px;background-color: aqua;display: flex;justify-content: center;align-items: center;"><i class="fa-solid fa-headphones" style="color: white;"></i></div>
+                <div>
+                    <h1 style="font-size: 40px;">Call for any query!</h1>
+                    <br>
+                    <h1 style="font-size: 30px;color: aqua;">+214-509-0000</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 style="width: 100%;height: 50px;color: aqua;display: flex;justify-content: center;font-weight: bold;font-size: 40px;" id="team">OUR TEAM</h1>
+    <h1 style="width: 100%;height: 50px;color: black;display: flex;justify-content: center;font-weight: bold;font-size: 40px;" id="teamdown">Expert Team Members</h1>
+    <div id="doctorsimg" style="width: 100%;height: 70vh;position: absolute;top: 1080vh;display: flex;justify-content: space-evenly;">
+        <div class="imghovers" id="" style="width: 250px;">
+            <div id="imgout" style="width: 200px;height: 180px;"><img id="emg" style="width: 300px;" src="../ASSETS/doctor1.jpg" alt=""></div>
+            <h3>Prof.Dr. Arthur Lovato</h3>
+            <span style="width: 300px;text-align: center;color: grey;">Chief Medical Officer</span>
+            <div id="hide" style="width: 130px;height: 35px;border-radius: 100px;">
+                <div id="hidein">
+                    <a href="../HTML/Home.html">
+                        <div style="display: flex;justify-content: space-evenly;gap: 15px;">
+                            <i id="fb" class="fa-brands fa-facebook-f" style="font-size: 15px;width: 20px;height: 20px;"></i>
+                            <i id="twitter" class="fa-brands fa-twitter" style="font-size: 15px;width: 20px;height: 20px;"></i>
+                            <i id="insta" class="fa-brands fa-instagram" style="font-size: 15px;width: 20px;height: 20px;"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="imghovers" id="" style="width: 250px;">
+            <div id="imgout"><img id="emg" style="width: 200px;" src="../ASSETS/doctor2.jpg" alt=""></div>
+            <h3>Dr. Danican Wilson</h3>
+            <span style="width: 300px;text-align: center;color: grey;">Orthopedic Surgeon</span>
+            <div id="hide" style="width: 130px;height: 35px;border-radius: 100px;">
+                <div id="hidein">
+                    <a href="../HTML/Home.html">
+                        <div style="display: flex;justify-content: space-evenly;gap: 15px;">
+                            <i id="fb" class="fa-brands fa-facebook-f" style="font-size: 15px;width: 20px;height: 20px;"></i>
+                            <i id="twitter" class="fa-brands fa-twitter" style="font-size: 15px;width: 20px;height: 20px;"></i>
+                            <i id="insta" class="fa-brands fa-instagram" style="font-size: 15px;width: 20px;height: 20px;"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="imghovers" id="" style="width: 250px;">
+            <div id="imgout"><img id="emg" style="width: 200px;" src="../ASSETS/doctor3.jpg" alt=""></div>
+            <h3>Dr. Adam Brown</h3>
+            <span style="width: 300px;text-align: center;color: grey;">Neurosurgeon</span>
+            <div id="hide" style="width: 130px;height: 35px;border-radius: 100px;">
+                <div id="hidein">
+                    <a href="../HTML/Home.html">
+                        <div style="display: flex;justify-content: space-evenly;gap: 15px;">
+                            <i id="fb" class="fa-brands fa-facebook-f" style="font-size: 15px;width: 20px;height: 20px;"></i>
+                            <i id="twitter" class="fa-brands fa-twitter" style="font-size: 15px;width: 20px;height: 20px;"></i>
+                            <i id="insta" class="fa-brands fa-instagram" style="font-size: 15px;width: 20px;height: 20px;"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="imghovers" id="" style="width: 250px;">
+            <div id="imgout"><img id="emg" style="width: 200px;" src="../ASSETS/doctor4.jpg" alt=""></div>
+            <h3>Nurse Nikita Taylor</h3>
+            <span style="width: 300px;text-align: center;color: grey;">Chief Nurse</span>
+            <div id="hide" style="width: 130px;height: 35px;border-radius: 100px;">
+                <div id="hidein">
+                    <a href="../HTML/Home.html">
+                        <div style="display: flex;justify-content: space-evenly;gap: 15px;">
+                            <i id="fb" class="fa-brands fa-facebook-f" style="font-size: 15px;width: 20px;height: 20px;"></i>
+                            <i id="twitter" class="fa-brands fa-twitter" style="font-size: 15px;width: 20px;height: 20px;"></i>
+                            <i id="insta" class="fa-brands fa-instagram" style="font-size: 15px;width: 20px;height: 20px;"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 style="width: 100%;height: 50px;display: flex;justify-content: center;position: absolute;top: 1180vh;font-weight: bold;color: aqua;">TESTIMONIAL</h1>
+    <h1 style="width: 100%;height: 60px;display: flex;justify-content: center;position: absolute;top: 1190vh;font-weight: bold;font-size: 50px;">Our Patients Say!</h1>
+    <div id="scroll" style="width: 100%;height: 70vh;border: 2px solid red;position: absolute;top: 1210vh;">
+
+    </div>
+    <div id="last" style="width: 100%;height: 70vh;background-color: rgb(38, 38, 97);position: absolute;top: 1300vh;">
+        <div style="display: flex;justify-content: space-evenly;align-items: center;width: 100%;height: 60vh;">
+            <div style="width: 250px;height: 250px;color: white;">
+                <h2 style="color: white;">Address</h2>
+                <br><br>
+                <i class="fa-solid fa-location-dot" style="font-size: 20px;color: white;"></i>&nbsp;&nbsp;123 Main Street, Anytown,
+                United States
+                <br><br>
+                <i class="fa-solid fa-phone-flip" style="font-size: 20px;"></i>&nbsp;&nbsp;+214-509-0000
+                <br><br>
+                <i class="fa-solid fa-envelope" style="font-size: 20px;"></i>&nbsp;&nbsp;info@example.com
+                <br><br>
+                <div style="width: 250px;height: 50px;display: flex;justify-content: space-evenly;">
+                    <div id="logoweb" style="width: 40px;height: 40px;border: 1px white solid;border-radius: 100px; display: flex;justify-content: center;align-items: center;"><i style="font-size: 20px;" class="fa-brands fa-twitter"></i></div>
+                    <div id="logoweb" style="width: 40px;height: 40px;border: 1px white solid;border-radius: 100px; display: flex;justify-content: center;align-items: center;"><i style="font-size: 20px;" class="fa-brands fa-facebook-f"></i></div>
+                    <div id="logoweb" style="width: 40px;height: 40px;border: 1px white solid;border-radius: 100px; display: flex;justify-content: center;align-items: center;"><i style="font-size: 20px;" class="fa-brands fa-youtube"></i></div>
+                    <div id="logoweb" style="width: 40px;height: 40px;border: 1px white solid;border-radius: 100px; display: flex;justify-content: center;align-items: center;"><i style="font-size: 20px;" class="fa-brands fa-linkedin-in"></i></div>
+                </div>
+            </div>
+            <div style="width: 230px;height: 250px;color: white;">
+                <h2>Services</h2>
+                <div id="arrowdiv" style="width: 200px;height: 200px;margin-top: 20px;margin-left: 10px; display: flex;justify-content: space-evenly;align-items: start;flex-direction: column;">
+                    <div><a id="arrowdata" href="#"><i id="arrow" class="fa-solid fa-chevron-right"></i><span > &nbsp;&nbsp;Dental</span></a></div>
+                    <div><a id="arrowdata" href="#"><i id="arrow" class="fa-solid fa-chevron-right"></i><span > &nbsp;&nbsp;Neurologie</span></a></div>
+                    <div><a id="arrowdata" href="#"><i id="arrow" class="fa-solid fa-chevron-right"></i><span > &nbsp;&nbsp;Cardio</span></a></div>
+                    <div><a id="arrowdata" href="#"><i id="arrow" class="fa-solid fa-chevron-right"></i><span > &nbsp;&nbsp;Orthopedy</span></a></div>
+                    <div><a id="arrowdata" href="#"><i id="arrow" class="fa-solid fa-chevron-right"></i><span > &nbsp;&nbsp;Laboratory</span></a></div>
+                    <div><a id="arrowdata" href="#"><i id="arrow" class="fa-solid fa-chevron-right"></i><span > &nbsp;&nbsp;Psychiatry</span></a></div>
+                </div>
+            </div>
+            <div style="width: 230px;height: 250px;">
+                <h2 style="color: white;">Quick Links</h2>
+                <div id="arrowdiv" style="width: 200px;height: 200px;margin-top: 20px;margin-left: 10px; display: flex;justify-content: space-evenly;align-items: start;flex-direction: column;">
+                    <div><a id="arrowdata" href="#"><i id="arrow" class="fa-solid fa-chevron-right"></i><span > &nbsp;&nbsp;About Us</span></a></div>
+                    <div><a id="arrowdata" href="#"><i id="arrow" class="fa-solid fa-chevron-right"></i><span > &nbsp;&nbsp;Contact Us</span></a></div>
+                    <div><a id="arrowdata" href="#"><i id="arrow" class="fa-solid fa-chevron-right"></i><span > &nbsp;&nbsp;Our Services</span></a></div>
+                    <div><a id="arrowdata" href="#"><i id="arrow" class="fa-solid fa-chevron-right"></i><span > &nbsp;&nbsp;Terms & Condition</span></a></div>
+                    <div><a id="arrowdata" href="#"><i id="arrow" class="fa-solid fa-chevron-right"></i><span > &nbsp;&nbsp;Support</span></a></div>
+                </div>
+            </div>
+            <div style="width: 230px;height: 250px;">
+                <h2 style="color: white;">Newsletter</h2>
+                <div style="width: 250px;height: 200px;margin-top: 40px;color: white;font-size: 16px;">Dolor amet sit justo amet elitrclita ipsum elitr est.
+                    <br><br>
+                    <form>
+                        <div style="display: flex;">
+                            <input type="email" placeholder="Your email" style="height: 40px;text-align: center;width: 150px;outline: none;border: none;">
+                            <input type="submit" name="" id="submit">
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+        <hr width="92%" style="margin-left: 50px;">
+        <br>
+        <span style="width: 100%;height: 50px;display: flex;justify-content: center;font-size: 20px;color: white;">© <a href="#" style="color: white;"> Your Site</a> , All Right Reserved.</sapn>
+    </div>
+ 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

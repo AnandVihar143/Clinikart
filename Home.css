@@ -149,7 +149,7 @@ body{
     justify-content: space-between;
 }
 #img3{
-    background-image: url(../ASSETS/about.jpg);
+    background-image: url(./ASSETS/about.jpg);
     background-size: 100% 150%;
     background-position: 100%;
 }
